@@ -10,7 +10,7 @@ public class Application {
 		 ApplicationContext context = 
 		         new AnnotationConfigApplicationContext(AppConfig.class);
 		 HelloWorldService service = context.getBean("helloWorldService", HelloWorldService.class);
-		 service.setMessageString("Visible");
+		 service.setMessageString("Sanjay");
 		 System.out.println(service.getMessageString());
 	}
 
