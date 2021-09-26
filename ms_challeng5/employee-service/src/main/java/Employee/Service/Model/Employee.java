@@ -1,4 +1,4 @@
-package Employee.Service;
+package Employee.Service.Model;
 
 public class Employee {
 
@@ -50,6 +50,12 @@ public class Employee {
 		this.departmentId = departmentId;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Employee Name: " + firstName + " " +lastName + "\r" + "Department ID: " + departmentId + " " +"Email: " + email + " " + "Designation: " + designation;
+	}
+	
 	public Employee(Integer empId, String firstName, String lastName, String designation, String email,
 			Integer departmentId) {
 		super();

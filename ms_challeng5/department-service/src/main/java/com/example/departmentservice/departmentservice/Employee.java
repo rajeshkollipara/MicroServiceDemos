@@ -71,7 +71,7 @@ public class Employee {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "Employee Name: " + firstName + lastName + "\n" + "Department Id: " + departmentId;
+		return "Employee Name: " + firstName + " " +lastName + "\r" + "Department ID: " + departmentId + " " +"Email: " + email + " " + "Designation: " + designation;
 	}
 
 }
